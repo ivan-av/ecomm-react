@@ -1,3 +1,5 @@
+// Configuration fot the Bearer token
+
 const getConfig = () => ({
   headers: {
     Authorization: `Bearer ${localStorage.getItem('token')}`

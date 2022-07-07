@@ -9,7 +9,9 @@ import store from './store'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
+    {/* Configuration of the Redux library */}
     <Provider store={store}>
+      {/* Configuration of the react-router-dom library, using HashRouter */}
       <HashRouter>
         <App />
       </HashRouter>
