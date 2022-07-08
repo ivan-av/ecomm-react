@@ -13,7 +13,7 @@ const HeaderScreen = () => {
   return (
     <header className="header">
       <h1 className="header__title">
-        <Link to='/'>e-commerce</Link>
+        <Link to='/'>MERCE ECOM</Link>
       </h1>
       <div onClick={clickMenuHam} className="header__menuham">
         <i className="fa-solid fa-bars"></i>

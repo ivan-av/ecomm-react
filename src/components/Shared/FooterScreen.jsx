@@ -3,7 +3,7 @@ import './styles/footerScreen.css'
 const FooterScreen = () => {
   return (
     <footer className="footer">
-      <p className='footer__text'>&copy; Academlo 2022</p>
+      <p className='footer__text'>Hecho con <i class="fa-solid fa-heart"></i> en Academlo | 2022</p>
       <ul className="redes">
         <li className="redes__items">
           <a href="" className="redes__links">

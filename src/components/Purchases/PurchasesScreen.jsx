@@ -1,6 +1,8 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 import getConfig from '../../utils/getConfig'
+import './style/purchases.css'
+
 
 const PurchasesScreen = () => {
 
@@ -16,7 +18,9 @@ const PurchasesScreen = () => {
   console.log(purchases)
 
   return (
-    <div>PurchasesScreen</div>
+    <div className='purchases__container'>
+      <h2 className='purchases__title'><i class="fa-solid fa-store"></i> PURCHASES</h2>
+    </div>
   )
 }
 

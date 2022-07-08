@@ -29,3 +29,20 @@
 .login__item{
   margin-bottom: 10px;
 }
+
+.user-logged__icon{
+ font-size: 70px;
+ color:rgb(226, 180, 28);
+}
+
+.user-logged__message{
+  color: rgb(37, 37, 137);
+  font-size: 30px;
+}
+
+.user-logged__container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
