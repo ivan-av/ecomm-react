@@ -66,7 +66,7 @@ const CartScreen = () => {
             <span className='cart__total-number'>{totalPriceCart}</span>
           </h2>
         :
-          <h2>The cart is empty</h2>
+          <h2 className='cart__empty-message'>The cart is empty</h2>
       }
       <button
         className='cart__btn'

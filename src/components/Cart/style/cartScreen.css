@@ -97,6 +97,10 @@
   transition: 0.1s ease;
 }
 
+.cart__empty-message{
+  color: #9a9a9b;
+}
+
 @media screen and (min-width: 720px) {
   .cart{
     width: min(900px, 100%);

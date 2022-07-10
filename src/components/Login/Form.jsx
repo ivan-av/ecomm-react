@@ -35,6 +35,7 @@ const Form = () => {
   return (
     <form onSubmit={handleSubmit(submit)} className="login__form">
       <ul className="login__test">
+        <li>Test credentials</li>
         <li className="flex-login">
           <b className="login-b">Email: </b>van@gmail.com
         </li>
@@ -42,7 +43,8 @@ const Form = () => {
           <b className="login-b">Password:    </b>123456
         </li>
       </ul>
-      <h2 className="login__title">Enter your information</h2>
+      <h2 className="login__title">Login</h2>
+      <h3 className='login_instructions'>Please, enter your credentials</h3>
       <ul className="login__list">
         <li className="login__item">
           <label htmlFor="login-email" className="login__label">Email</label>
@@ -68,7 +70,7 @@ const Form = () => {
           isErrorLogin && 'Invalid credentials, try again...'
         }
       </div>
-      <button>Login</button>
+      <button className='login__button'>Login</button>
     </form>
   )
 }
