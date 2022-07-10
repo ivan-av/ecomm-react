@@ -5,14 +5,43 @@
     margin-top: 20px;
 }
 
-.form-home{
-    width: 80vh;
-}
-
 .form-home input, button{
     padding: 10px;
+    box-shadow: 2px 2px 2px rgb(215, 215, 215);
 }
 
-.form-home input {
-    width: 60vh;
+.form-input__home{
+    border: solid 1px rgb(219, 219, 219);
+    border-radius: 10px 0px 0px 10px;
+
+    color: #1d77ab;
+    font-size: 14px;
+
+    height: 45px;
+    width: 260px;
+}
+
+.form-input__home:hover{
+    border: solid 1px rgb(149, 149, 149);
+    transition: 0.4s ease;
+}
+
+.form-button__home{
+    border: solid 1px rgb(219, 219, 219);
+    border-radius: 0px 10px 10px 0px;
+    width: 45px;
+    height: 45px;
+
+    cursor: pointer;
+    color: white;
+    background-color: #2488c1;
+}
+
+.form-button__home:hover{
+    color: #ffe95a;
+    transition: 0.2s ease;
+}
+
+.form-button__home:active{
+    transform: translateY(1px);
 }

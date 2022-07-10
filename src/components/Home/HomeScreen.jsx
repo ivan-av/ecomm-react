@@ -6,7 +6,6 @@ import './style/homeScreen.css'
 
 const HomeScreen = () => {
 
-
   const products = useSelector(state => state.products)
 
   console.log(products)

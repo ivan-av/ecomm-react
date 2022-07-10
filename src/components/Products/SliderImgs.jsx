@@ -26,7 +26,7 @@ const SliderImgs = ({product}) => {
 
   return (
     <div className='slider'>
-      <div onClick={clickPrev} className='slider__prev'>&#60;</div>
+      <div onClick={clickPrev} className='slider__prev'><i className="fa-solid fa-angle-left"></i></div>
       <div className={`slider__container ${classImg[indexClass]}`}>
         {
           product?.productImgs.map(imgSrc => (
@@ -39,7 +39,7 @@ const SliderImgs = ({product}) => {
           ))
         }
       </div>
-      <div onClick={clickNext} className='slider__next'>&#62;</div>
+      <div onClick={clickNext} className='slider__next'><i className="fa-solid fa-angle-right"></i></div>
       <div className='puntitos-container'>
         <div 
           onClick={() => setIndexClass(0)} 

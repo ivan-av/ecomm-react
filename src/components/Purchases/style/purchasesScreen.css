@@ -4,6 +4,8 @@
   }
   .purchases__title {
     text-align: center;
+    font-family: 'Pacifico', cursive;
+    color: #2488c1;
   }
   .purchase-card {
     margin: var(--padding-mobile);
@@ -52,10 +54,11 @@
     }
     .purchases__title {
       font-size: 1.8rem;
-      margin-bottom: 50px;
+      margin-bottom: 30px;
     }
     .purchase-card__title {
       font-size: 1.1rem;
+      background-color: #fcf0a1;
     }
     .product-purchase {
       flex-direction: row;

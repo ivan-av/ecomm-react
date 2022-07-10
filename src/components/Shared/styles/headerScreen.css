@@ -20,6 +20,10 @@
   text-shadow: 3px 3px 2px rgb(228, 219, 163);
 }
 
+.header__title:active{
+  transform: scale(0.95);
+}
+
 .header__menuham{
   font-size: 1.4rem;
   position: fixed;
@@ -111,6 +115,11 @@
     transform:scale(0.98);
     box-shadow: rgb(241, 241, 241);
     color: #2488c1;
+    transition: 0.2s ease;
+  }
+
+  .navbar__items:active{
+    transform:scale(0.95);
     transition: 0.2s ease;
   }
 

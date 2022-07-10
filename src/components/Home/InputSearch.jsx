@@ -13,8 +13,8 @@ const InputSearch = () => {
   return (
     <div className='input__container'>
       <form onSubmit={handleSubmit(submit)} className='form-home'>
-        <input type="text" {...register('searchText')} />
-        <button>Search</button>
+        <input className='form-input__home' placeholder='What are you looking for?' type="text" {...register('searchText')} />
+        <button className='form-button__home'><i className="fa-solid fa-magnifying-glass"></i></button>
       </form>
     </div>
   )

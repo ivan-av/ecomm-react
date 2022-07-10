@@ -90,3 +90,7 @@
   transform: scale(1.2);
   transition: transform 200ms ease;
 }
+
+.card-product__btn:active{
+  transform: scale(1);
+}

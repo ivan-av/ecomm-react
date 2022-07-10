@@ -10,11 +10,16 @@
 .cart__title{
   text-align: center;
   margin-bottom: 30px;
+  font-family: 'Pacifico', cursive;
+  color: #2488c1;
 }
 .cart-info{
   display: grid;
   grid-template-columns: 1fr auto;
   gap: 15px 0;
+
+  border-bottom: 1px solid rgb(214, 214, 214);
+  /* margin-bottom: 5px; */
 }
 .cart-info__subtitle{
   font-size: 0.9rem;
@@ -35,16 +40,34 @@
   height: 30px;
   border: 1px solid var(--border-color);
   margin-bottom: 5px;
+  border-radius: 5px;
 }
 .cart-info__price{
   font-weight: 700;
 }
 .cart-info__btn{
-  color: var(--secondary-color);
+  color: red;
   font-size: 1.2rem;
   cursor: pointer;
   margin: auto;
+
+  text-shadow: 2px 2px 2px rgb(207, 207, 207);
 }
+
+.cart-info__btn:hover{
+  color: rgb(255, 72, 72);
+  transition: 0.3s ease;
+}
+
+.cart-info__btn:active{
+  transform: translateY(1px);
+  transition: 0.2s ease;
+}
+
+.cart__total{
+  margin-top: 15px;
+}
+
 .cart__btn{
   display: block;
   background-color: var(--secondary-color);
@@ -56,7 +79,24 @@
   border-radius: 8px;
   margin: 40px auto 0;
   cursor: pointer;
+
+  font-weight: 600;
+
+  box-shadow: 2px 2px 2px rgb(174, 174, 174);
 }
+
+.cart__btn:hover{
+  background-color: #3a99cf;
+  transition: 0.3s ease;
+}
+
+.cart__btn:active{
+  transform: translateY(2px);
+  background-color: #b7d2e1;
+  box-shadow: 1px 1px 1px rgb(138, 138, 138);
+  transition: 0.1s ease;
+}
+
 @media screen and (min-width: 720px) {
   .cart{
     width: min(900px, 100%);
@@ -75,6 +115,7 @@
   }
   .cart-info__header{
     flex-basis: 64%;
+    padding-left: 10px;
   }
   .cart-info__price,
   .cart-info__btn{
@@ -83,6 +124,11 @@
   .cart-info__quantity{
     flex-basis: 6%;
   }
+
+  .cart__total{
+    padding-left: 10px;
+  }
+
   .cart__btn{
     font-size: 1.1rem;
     padding: 10px;
