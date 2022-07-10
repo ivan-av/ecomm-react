@@ -1,5 +1,6 @@
 .purchases{
     margin-top: 30px;
+    background-image: url('../../../assets/img/svg/bg_image2.svg');
   }
   .purchases__title {
     text-align: center;
@@ -8,6 +9,8 @@
     margin: var(--padding-mobile);
     border-radius: 10px;
     border: 1px solid var(--border-color);
+
+    background-color: white;
   }
   .purchase-card__title{
     font-size: 1rem;
