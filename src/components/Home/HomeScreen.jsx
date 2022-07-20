@@ -1,6 +1,6 @@
 import React from 'react'
 import { useSelector } from 'react-redux'
-import InputSearch from './InputSearch'
+// import InputSearch from './InputSearch'
 import ProductCard from './ProductCard'
 import './style/homeScreen.css'
 
@@ -14,7 +14,7 @@ const HomeScreen = () => {
 
   return (
     <div className='home'>
-      <InputSearch />
+      {/* <InputSearch /> */}
       <div className='products-container'>
         {
           products.map(product => (
